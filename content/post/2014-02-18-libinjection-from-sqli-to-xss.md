@@ -1,7 +1,7 @@
 +++
 date = "2014-02-18"
 aliases = [ "20140218" ]
-title = "Libinjection: From SQLI to XSS Version 2"
+title = "Libinjection: From SQLI to XSS V2"
 +++
 
 *libinjection: From SQLI to XSS* (version 2) was first presented at Code Blue, Tokyo Japan on 2014-02-18.
