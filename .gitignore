@@ -1,4 +1,6 @@
 *~
+.sass-cache
+public
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
