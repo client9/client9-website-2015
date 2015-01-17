@@ -1,6 +1,6 @@
 +++
-date = "2014-01-17"
-aliases = [ "20140117" ]
+date = "2015-01-17"
+aliases = [ "20150117" ]
 title = "Comparison of Linux Distributions on AWS EC2"
 +++
 
