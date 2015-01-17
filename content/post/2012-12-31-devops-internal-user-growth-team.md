@@ -6,7 +6,7 @@ aliases = ["20121231"]
 og-image = "/assets/20121231-devops.png"
 +++
 
-[PuppetLabs](http://puppetlibs.com) invited me to guest-write for their [blog](https://puppetlabs.com/blog/).   I thought about the future of DevOps and what it  means after you get done automating basic infrastructure.   The end result is [DevOps: The Internal User Growth Team](https://puppetlabs.com/blog/devops-the-internal-user-growth-team/), which was the last blog post of year.
+[PuppetLabs](http://puppetlabs.com) invited me to guest-write for their [blog](https://puppetlabs.com/blog/).   I thought about the future of DevOps and what it  means after you get done automating basic infrastructure.   The end result is [DevOps: The Internal User Growth Team](https://puppetlabs.com/blog/devops-the-internal-user-growth-team/), which was the last blog post of year.
 
 Special thanks to [Michelle Carroll](http://www.linkedin.com/pub/michelle-carroll/28/62b/6a9) for outstanding copy-editing.
 
