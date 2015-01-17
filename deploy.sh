@@ -3,6 +3,7 @@
 
 set -e
 
+find . -name '*~' | xargs rm -f
 
 echo -e "Deploying updates to GitHub..."
 
