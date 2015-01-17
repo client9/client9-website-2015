@@ -5,10 +5,12 @@ title = "Comparison of Linux Distributions on AWS EC2"
 +++
 
 How do various Linux distributions implement a operating system for
-use in virtualized or cloud environments?  One (imperfect) proxy for size and
-complexity is number of packages installed.  In Amazon's US-WEST-1
-region, I fired up the a number of Linux distributions and counted the
-number of packages installed.
+use in virtualized or cloud environments?  One proxy for
+size and complexity is the number of packages installed.  While not a perfect
+comparison, in general, less is more.  In Amazon's US-WEST-1 region, I fired up
+the a number of Linux distributions and counted the number of packages
+installed. <!--more-->
+
 
 OS Distribution                 | AMI          | Packages
 --------------------------------|--------------|----

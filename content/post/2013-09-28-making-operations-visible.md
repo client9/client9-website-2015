@@ -8,6 +8,7 @@ tags = [ "presentations" ]
 +++
 
 First presented at DevOpsDays, Tokyo on 2013-09-28.
+<!--more-->
 
 {{% slideshare 26632342 %}}
 
