@@ -24,7 +24,7 @@ theme="vienna"
     # footer.
     twitter = "@NGalbreath"
     github = "client9"
-    linkedin = "Your LinkedIn username"
+    linkedin = "nick-galbreath-1890794"
     # Disqus shortname
     #disqus = "Your disqus shortname"
     # Google Analytics API key.
@@ -36,6 +36,6 @@ theme="vienna"
     contact = "Your contact link (ex. mailto:foo@example.com)"
     bio = "Your short bio"
     # Short subtitle/tagline. This is displayed in the header.
-    subtitle = "CTO/Founder <a href=\"https://www.signalsciences.com/)\">Signal Sciences</a>"
+    subtitle = "CTO/Founder <a href=https://www.signalsciences.com style='color:rgba(255, 255, 255, 0.7)'/>Signal Sciences</a>"
     themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 
