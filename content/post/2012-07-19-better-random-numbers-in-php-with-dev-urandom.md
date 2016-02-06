@@ -6,7 +6,7 @@ aliases = ["20120719"]
 +++
 
 Originally posted on Etsy's Code as Craft blog: [Better Random Numbers
-in PHP using /dev/urandom](http://codeascraft.etsy.com/2012/07/19/better-random-numbers-in-php-using-devurandom/). Slight edited and reposted here as an learning excercise in using markdown.
+in PHP using /dev/urandom](http://codeascraft.etsy.com/2012/07/19/better-random-numbers-in-php-using-devurandom/). Slight edited and reposted here as an learning exercise in using markdown.
 
 * * * *
 
@@ -33,7 +33,7 @@ USA](https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Argyros)).
 
 Quite some time ago, Etsy switched over to a different way of
 generating random numbers by using [`/dev/urandom`](http://en.wikipedia.org/wiki//dev/urandom) that prevents both
-issues. `/dev/urandom` is a special psuedo-file on unix-like operating
+issues. `/dev/urandom` is a special pseudo-file on unix-like operating
 systems that generates “mostly random” bytes and is
 non-blocking. [`/dev/random`](http://en.wikipedia.org/wiki//dev/random) (with no “u“) is for truly cryptographic
 applications such as key generation and is blocking. Once you exhaust

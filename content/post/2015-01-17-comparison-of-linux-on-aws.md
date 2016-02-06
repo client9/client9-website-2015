@@ -28,12 +28,12 @@ installed.<!--more-->
 
 ### Notes:
 
-* Unsurprisingly, commerical-based distributions had more packages
+* Unsurprisingly, commercial-based distributions had more packages
   installed than more-community driven ones.  I'll let you decide if
   they add value or not.
 * To be fair to SUSE, it specifically said it came with everything.
   With 724 packages installed by default, it better.
-* Ubuntu 12 is filled with stuff that doesnt belong on a (cloud)
+* Ubuntu 12 is filled with stuff that doesn't belong on a (cloud)
   server: bluetooth drivers, wireless drivers, NFS, etc.
 * Ubunut 12 and 14 package up various X (the windows system) libraries, apparently for a
   graphic boot system.  Probably not so useful in a cloud environment.
