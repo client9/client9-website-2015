@@ -7,7 +7,7 @@ image= ""
 aliases= ["20120501" ]
 +++
 
-First presented at [SANS AppSec Summit, Las Vegas, NV on May 1, 2012]((http://www.sans.org/appsec-2012/)
+First presented at [SANS AppSec Summit, Las Vegas, NV on May 1, 2012](http://www.sans.org/appsec-2012/)
 
 
 > 3:15-4:05 p.m.

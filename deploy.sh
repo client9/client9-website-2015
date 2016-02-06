@@ -1,30 +1,23 @@
 #!/bin/bash
 # http://gohugo.io/tutorials/github_pages_blog/
 
-set -e
+GITHUBIO="/Users/nickg/client9-github/client9.github.io/"
+echo $GITHUBIO
 
 find . -name '*~' | xargs rm -f
-
-echo -e "Deploying updates to GitHub..."
-
-# Build the project.
-hugo
-
-# Go To Public folder
-cd public
-# Add changes to git.
-git add -A
 
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
-git commit -m "$msg"
 
-# Push source and build repos.
-git push origin master
+echo -e "Deploying updates to GitHub: $msg"
 
-# Come Back
-cd ..
+hugo
+
+(cd public; cp -r * ${GITHUBIO})
+
+(cd ${GITHUBIO}; git commit -am "$msg"; git push)
+
 

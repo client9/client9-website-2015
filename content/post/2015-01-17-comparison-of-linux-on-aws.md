@@ -9,23 +9,24 @@ use in virtualized or cloud environments?  One proxy for
 size and complexity is the number of packages installed.  While not a perfect
 comparison, in general, less is more.  In Amazon's US-WEST-1 region, I fired up
 the a number of Linux distributions and counted the number of packages
-installed. <!--more-->
+installed.<!--more-->
 
 
-OS Distribution                 | AMI          | Packages
---------------------------------|--------------|----
-SUSE Linux Enterprise Server 12 | ami-b95b4ffc | 724
-Ubuntu 14.10 Utopic             | ami-b7515af2 | 461
-Ubuntu 14.04 LTS Precise        | ami-076e6542 | 450
-Ubuntu 12.04 LTS Trusty         | ami-b7515af2 | 396
-Amazon Linux AMI 2014.09.1      | ami-4b6f650e | 361
-Red Hat Enterprise Linux 7.0    | ami-33cdd876 | 347
-Debian 8.0 (experimental)       | ami-17899452 | 271
-CentOS 7                        | ami-33c1ca76 | 246
-Fedora-Cloud-Base-20141203-21   | ami-970310d2 | 226
-Debian 7.7                      | ami-b12e39f4 | 194
+<table class="table">
+<tr><th> OS Distribution </th><th> AMI </th><th> Packages </th></tr>
+<tr><td> SUSE Linux Enterprise Server 12 </td><td> ami-b95b4ffc </td><td> 724      </td></tr>
+<tr><td> Ubuntu 14.10 Utopic             </td><td> ami-b7515af2 </td><td> 461      </td></tr>
+<tr><td> Ubuntu 14.04 LTS Precise        </td><td> ami-076e6542 </td><td> 450      </td></tr>
+<tr><td> Ubuntu 12.04 LTS Trusty         </td><td> ami-b7515af2 </td><td> 396      </td></tr>
+<tr><td> Amazon Linux AMI 2014.09.1      </td><td> ami-4b6f650e </td><td> 361      </td></tr>
+<tr><td> Red Hat Enterprise Linux 7.0    </td><td> ami-33cdd876 </td><td> 347      </td></tr>
+<tr><td> Debian 8.0 (experimental)       </td><td> ami-17899452 </td><td> 271      </td></tr>
+<tr><td> CentOS 7                        </td><td> ami-33c1ca76 </td><td> 246      </td></tr>
+<tr><td> Fedora-Cloud-Base-20141203-21   </td><td> ami-970310d2 </td><td> 226      </td></tr>
+<tr><td> Debian 7.7                      </td><td> ami-b12e39f4 </td><td> 194      </td></tr>
+</table>
 
-Notes:
+### Notes:
 
 * Unsurprisingly, commerical-based distributions had more packages
   installed than more-community driven ones.  I'll let you decide if
@@ -46,7 +47,7 @@ Notes:
   why it is so complicated.
 * Febora has a cloud-based version?  Apparently, [I'm not the only one confused by it](http://www.infoworld.com/article/2843687/Linux/red-hat-fedora-confuses-Linux-users.html)
 
-## Not-Linux and Not-Quite Linux
+### Not-Linux and Not-Quite Linux
 
 * Of course, one doesn't have to run Linux either.  I launched a
   [FreeBSD ami](http://www.daemonology.net/freebsd-on-ec2/), and

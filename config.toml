@@ -1,12 +1,41 @@
-baseurl = "http://www.client9.com"
-title = "Digitial Sanitation Engineering"
-languageCode = "en-us"
-copyright = "Copyright &copy; 2008 - 2015, Nick Galbreath. All Rights Reserved."
-MetaDataFormat = "yaml"
+# config.toml
+
+baseurl = "http://www.client9.com/"
+title = "Nick Galbreath"
+languageCode = "en-US"
+MetaDataFormat = "toml"
+paginate = 10
+PaginatePath = "/"
+theme="vienna"
 
 [author]
     name = "Nick Galbreath"
 
-[indexes]
-    tag = "tags"
-    topic = "topics"
+[permalinks]
+
+    # Permalink format for pages.
+     page = "/:title/"
+
+    # Permalink format for blog posts.
+    post = "/article/:title/"
+
+[params]
+    # Social accounts. Link to these accounts are displayed in the header and
+    # footer.
+    twitter = "@NGalbreath"
+    github = "client9"
+    linkedin = "Your LinkedIn username"
+    # Disqus shortname
+    #disqus = "Your disqus shortname"
+    # Google Analytics API key.
+    ga_api_key = "Your Google Analytics tracking id"
+    # Mixpanel API key.
+    # mixpanel_api_key = "Your Mixpanel API key"
+    author = "Nick Galbreath"
+    avatar = "/path/to/avatar"
+    contact = "Your contact link (ex. mailto:foo@example.com)"
+    bio = "Your short bio"
+    # Short subtitle/tagline. This is displayed in the header.
+    subtitle = "CTO/Founder <a href=\"https://www.signalsciences.com/)\">Signal Sciences</a>"
+    themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+
