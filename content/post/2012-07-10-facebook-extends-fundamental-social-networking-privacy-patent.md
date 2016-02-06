@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Facebook Extends Fundemental Social Networking Privacy Patent"
+title: "Facebook Extends Fundamental Social Networking Privacy Patent"
 summary: "Facebook extends fundamental social networking patent; Nick Galbreath listed as inventor."
 image: ""
 aliases: ["20120710"]

@@ -14,16 +14,16 @@ installed.<!--more-->
 
 <table class="table">
 <tr><th> OS Distribution </th><th> AMI </th><th> Packages </th></tr>
-<tr><td> SUSE Linux Enterprise Server 12 </td><td> ami-b95b4ffc </td><td> 724      </td></tr>
-<tr><td> Ubuntu 14.10 Utopic             </td><td> ami-b7515af2 </td><td> 461      </td></tr>
-<tr><td> Ubuntu 14.04 LTS Precise        </td><td> ami-076e6542 </td><td> 450      </td></tr>
-<tr><td> Ubuntu 12.04 LTS Trusty         </td><td> ami-b7515af2 </td><td> 396      </td></tr>
-<tr><td> Amazon Linux AMI 2014.09.1      </td><td> ami-4b6f650e </td><td> 361      </td></tr>
-<tr><td> Red Hat Enterprise Linux 7.0    </td><td> ami-33cdd876 </td><td> 347      </td></tr>
-<tr><td> Debian 8.0 (experimental)       </td><td> ami-17899452 </td><td> 271      </td></tr>
-<tr><td> CentOS 7                        </td><td> ami-33c1ca76 </td><td> 246      </td></tr>
-<tr><td> Fedora-Cloud-Base-20141203-21   </td><td> ami-970310d2 </td><td> 226      </td></tr>
-<tr><td> Debian 7.7                      </td><td> ami-b12e39f4 </td><td> 194      </td></tr>
+<tr><td> SUSE Linux Enterprise Server 12 </td><td> `ami-b95b4ffc` </td><td> 724      </td></tr>
+<tr><td> Ubuntu 14.10 Utopic             </td><td> `ami-b7515af2` </td><td> 461      </td></tr>
+<tr><td> Ubuntu 14.04 LTS Precise        </td><td> `ami-076e6542` </td><td> 450      </td></tr>
+<tr><td> Ubuntu 12.04 LTS Trusty         </td><td> `ami-b7515af2` </td><td> 396      </td></tr>
+<tr><td> Amazon Linux AMI 2014.09.1      </td><td> `ami-4b6f650e` </td><td> 361      </td></tr>
+<tr><td> Red Hat Enterprise Linux 7.0    </td><td> `ami-33cdd876` </td><td> 347      </td></tr>
+<tr><td> Debian 8.0 (experimental)       </td><td> `ami-17899452` </td><td> 271      </td></tr>
+<tr><td> CentOS 7                        </td><td> `ami-33c1ca76` </td><td> 246      </td></tr>
+<tr><td> Fedora-Cloud-Base-20141203-21   </td><td> `ami-970310d2` </td><td> 226      </td></tr>
+<tr><td> Debian 7.7                      </td><td> `ami-b12e39f4` </td><td> 194      </td></tr>
 </table>
 
 ### Notes:
