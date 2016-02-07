@@ -2,7 +2,7 @@
 date="2012-05-01"
 tags= ["presentations"]
 title= "Rate-Limiting at Scale"
-summary= "The hows, whys and whats of rate-limiting user behavior at web-scale.  First presetned at SANS AppSec Summit, Las Vegas NV on May 1, 2012"
+summary= "The hows, whys and whats of rate-limiting user behavior at web-scale.  First presented at SANS AppSec Summit, Las Vegas NV on May 1, 2012"
 image= ""
 aliases= ["20120501" ]
 +++

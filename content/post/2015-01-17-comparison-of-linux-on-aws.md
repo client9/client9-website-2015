@@ -35,7 +35,7 @@ installed.<!--more-->
   With 724 packages installed by default, it better.
 * Ubuntu 12 is filled with stuff that doesn't belong on a (cloud)
   server: bluetooth drivers, wireless drivers, NFS, etc.
-* Ubunut 12 and 14 package up various X (the windows system) libraries, apparently for a
+* Ubuntu 12 and 14 package up various X (the windows system) libraries, apparently for a
   graphic boot system.  Probably not so useful in a cloud environment.
 * Even after removing fluff from Ubuntu 12 and 14, it's still over 150 more
   packages than its matching Debian counterparts.
@@ -54,7 +54,7 @@ installed.<!--more-->
   according to `pkg version` only 22 packages were added to the base
   install to make it run on Amazon's services (mostly around python
   and cloudinit which are optional).  I'm not an expert in FreeBSD but
-  I certainly like the wholistic approach they use.
+  I certainly like the holistic approach they use.
 * Docker. Sure, but Docker still needs a host system, and a guest OS
   (or some type).  CoreOS is likely the first of many minimal OSs
   coming out in 2015.  One could argue that
@@ -62,6 +62,6 @@ installed.<!--more-->
   [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker)
   is "better" than regular Ubuntu.
 
-Obvioulsy there is more to deciding what OS to use than how small the
+Obviously there is more to deciding what OS to use than how small the
 base install is, but it is a useful reflection of the goals and
 designs of the distribution.
