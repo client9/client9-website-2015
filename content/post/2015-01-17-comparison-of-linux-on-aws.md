@@ -45,7 +45,7 @@ installed.<!--more-->
 * Debian 8 and Ubuntu 14 are a bit odd.  They provide two pythons and
   two libc versions that are essential for `cloudinit`, but not sure
   why it is so complicated.
-* Febora has a cloud-based version?  Apparently, [I'm not the only one confused by it](http://www.infoworld.com/article/2843687/Linux/red-hat-fedora-confuses-Linux-users.html)
+* Fedora has a cloud-based version?  Apparently, [I'm not the only one confused by it](http://www.infoworld.com/article/2843687/Linux/red-hat-fedora-confuses-Linux-users.html)
 
 ### Not-Linux and Not-Quite Linux
 

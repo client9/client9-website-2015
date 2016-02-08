@@ -1,0 +1,30 @@
+extra: [
+  /Users/nickg/Library/Spelling/LocalDictionary
+]
+additions: [
+ WIP
+ gospell
+ Etsy
+ CTO
+ Friendster
+ Friendster's
+ Etsy's
+ LASCON
+ NFS
+ Hermosa
+ DEFCON
+ Arpaia
+ Yamazaki
+ Utopic
+ SDL
+ 日本語
+ Veracode
+ Veracode's
+]
+fileset: [
+  {
+    path: "."
+    include: [ "*.md" ]
+    exclude: [ "themes" ]
+  }
+]
