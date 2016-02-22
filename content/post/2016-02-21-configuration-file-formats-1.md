@@ -91,7 +91,8 @@ don't know of any.
 
 You might be less familiar with TOML.  The main [TOML
 specification](https://github.com/toml-lang/toml) is a good start, and
-Nate Finch wrote even more on it https://npf.io/2014/08/intro-to-toml/
+[Nate Finch](https://github.com/natefinch) wrote even more on it
+https://npf.io/2014/08/intro-to-toml/
 
 Pros:
 
