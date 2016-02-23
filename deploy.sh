@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 # http://gohugo.io/tutorials/github_pages_blog/
 
 GITHUBIO="/Users/nickg/client9-github/client9.github.io/"
@@ -11,6 +12,7 @@ msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
+hugo
 
 echo -e "Deploying updates to GitHub: $msg"
 
