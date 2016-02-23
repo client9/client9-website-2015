@@ -4,10 +4,12 @@ aliases = [ "20160223" ]
 title = "Docker and Alpine Linux (and systemd)"
 +++
 
-The [comment](https://news.ycombinator.com/item?id=11000827) by the
-CTO of Docker on January 31, 2016 implied that Docker was shifting
-the default base images from Ubuntu to Alpine Linux.  What's really
-going on?  <!--more-->
+This [comment](https://news.ycombinator.com/item?id=11000827) by the
+[CTO of Docker](https://www.docker.com/company/management) on January
+31, 2016 implied that [Docker](https://www.docker.com) was shifting
+the default base images from [Ubuntu](http://www.ubuntu.com) to
+[Alpine Linux](http://alpinelinux.org).  What's really going
+on?<!--more-->
 
 First note that this hasn't been confirmed (or denied) by
 Docker-The-Company, so this is all speculation on my part.
