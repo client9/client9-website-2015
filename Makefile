@@ -1,5 +1,7 @@
 
+test:
+	go run ~/gopath/src/github.com/client9/gospell/cmd/sample/sample.go
+	misspell content/post/2016*.md
 
-build:
-	(cd static/static/css; sass ZGS.scss zgs.css)
+build: test
 	hugo
