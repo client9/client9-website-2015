@@ -19,7 +19,7 @@ Docker-The-Company, so this is all speculation on my part.
 Alpine Linux is a small Linux distribution that uses [musl
 libc](http://www.musl-libc.org) and [busybox](https://busybox.net) for
 all the common Linux command line tools.  These might not be the most
-compatibile since they intentionally restrict features, but it also
+compatible since they intentionally restrict features, but it also
 means it's small, and in general more secure (less surface area, less
 cruft from decades of development).  Many users will never know the
 difference, especially since Alpine comes with a package manager and all
@@ -57,7 +57,7 @@ creep in.
 
 ### Owning the Customer
 
-Does Docker want to be writing how-to guides for Ubutnu?
+Does Docker want to be writing how-to guides for Ubuntu?
 Probably not.  Do they want to be sending their users off to
 `ubuntu.com`?  Probably not.
 
@@ -76,8 +76,8 @@ critical part of the whole operating system. `systemd` is sponsored
 (or outright controlled) by [RedHat](http://redhat.com/).
 
 Since Docker-The-Runtime is a process and running containers are
-more-or-less a special case of a process, SystemD thinks the container
-runtime should by under their perview.  From a post on the
+more-or-less a special case of a process, `systemd` thinks the container
+runtime should by under their purview.  From a post on the
 [CoreOS](https://coreos.com/) blog:
 
 >  ... it's a responsibility for systemd to integrate containers into
@@ -90,8 +90,8 @@ Docker-The-Runtime fit in?  It doesn't.
 
 Ubuntu 16 is due in April 2016 will run the full systemd stack. If
 Docker continued with Ubuntu it would be shipping a technology that
-has implicity (?) said that Docker-the-Runtime is obsolete.  And every
-other OS is shipping systemd as well. This is not a great positiion to
+has implicitly (?) said that Docker-the-Runtime is obsolete.  And every
+other OS is shipping systemd as well. This is not a great position to
 be in.
 
 ## Conclusion
