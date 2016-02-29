@@ -68,9 +68,9 @@ Pros:
 
 Cons:
 * The [specification](http://www.yaml.org/spec/1.2/spec.html) is 97-pages long.
-* The "cheat sheet" will cause most readers an anuerism.
+* The "cheat sheet" will cause most readers an aneurysm.
 * Anything more complicated that simple key/value pairs is very hard to write and debug.
-* It's a superset of JSON - this means there are two ways of specifing the same configuration.
+* It's a superset of JSON - this means there are two ways of specifying the same configuration.
 * Due to white space rules, it may or may not be easy to cut-n-paste.
 
 Conclusion: For *simple* configurations YAML is really nice.  But
@@ -82,9 +82,9 @@ it.  That smells wrong for a configuration file.
 I saw a few times on the Internets, "I like YAML since I can express
 really complicated data structures in my configuration".  Now you have
 two problems: your configuration is too complicated, and your
-implimentation is too complicated.  Your poor users.
+implementation is too complicated.  Your poor users.
 
-It would be nice if there was a YAML-light implimentation.  However I
+It would be nice if there was a YAML-light implementation.  However I
 don't know of any.
 
 ### TOML
@@ -97,7 +97,7 @@ https://npf.io/2014/08/intro-to-toml/
 Pros:
 
 * More simple
-* Appears to have good langauge and editor support
+* Appears to have good language and editor support
 * Order of stanzas does not matter
 * Easy to cut-n-paste
 * Keys do not need to be quoted
@@ -118,9 +118,9 @@ Conclusion:
 Over-all I'm net-positive on TOML, but like all things there are some
 design decisions that have tradeoffs.
 
-JSON/YAML/XML represent object heirarchy through nested
+JSON/YAML/XML represent object hierarchy through nested
 configuration. In TOML, configuration files are only 1-level deep, and
-heirachy is explicity listed.  This means TOML is great for "spare
+hierarchy is explicitly listed.  This means TOML is great for "spare
 configuration" where you have many possible sections, perhaps deeply
 needed.  You can configure a specific item very quickly and clearly,
 e.g.
@@ -137,7 +137,7 @@ Compared to JSON:
 {"foo": {"bar": {"xyz": {"abc": {"name": "nickg" }}}}}
 ```
 
-Ideally you dont have such a complicated configuration in the first
+Ideally you don't have such a complicated configuration in the first
 place, but sometimes it makes sense.  This also means that some types
 of configuration will expand or contract when switching to TOML.  You
 may wish to change your object model (or abstract it) so your TOML
