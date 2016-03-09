@@ -107,3 +107,6 @@ for end users.  Innovation in the OS space has been sorely lacking.
 Is Docker planning a host OS (running Docker-The-Runtime) ? Or just
 using this as a guest OS (inside containers)? Or both?  Stay tuned to
 find out!
+
+Update: A colleague wrote in and said "Is Docker planning a host OS?"
+Almost certainly :)"
