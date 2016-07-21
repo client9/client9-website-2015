@@ -4,7 +4,7 @@ date = "2016-07-23"
 title = "5 Interesting Injection Attacks"
 +++
 
-Everyone is familiar with SQLi and XSS.  To spice things up, here five more unusual injection attacks that have appeared recently.
+Everyone is familiar with SQLi and XSS.  To make things more interesting, here are five more unusual injection attacks that have appeared recently.
 
 <!--more-->
 
