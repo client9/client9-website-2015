@@ -1,24 +1,20 @@
-#!/bin/bash
+#!/bin/sh
 set -ex
 # http://gohugo.io/tutorials/github_pages_blog/
 
-GITHUBIO="/Users/nickg/client9-github/client9.github.io/"
+GITHUBIO="/go/src/github.com/client9/client9.github.io"
 echo $GITHUBIO
-
-find . -name '*~' | xargs rm -f
 
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
-hugo
+
+hugo --destination=/go/src/github.com/client9/client9.github.io
 
 echo -e "Deploying updates to GitHub: $msg"
 
-hugo
-
-(cd public; cp -r * ${GITHUBIO})
 
 (cd ${GITHUBIO}; git commit -am "$msg"; git push)
 
