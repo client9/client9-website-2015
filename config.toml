@@ -39,3 +39,7 @@ theme="vienna"
     subtitle = "CTO/Founder <a href=https://www.signalsciences.com style='color:rgba(255, 255, 255, 0.7)'/>Signal Sciences</a>"
     themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 
+[Social]
+  twitter = "NGalbreath"
+
+
