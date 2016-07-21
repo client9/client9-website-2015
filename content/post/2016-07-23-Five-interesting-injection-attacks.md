@@ -1,7 +1,7 @@
 +++
 aliases = [ "20160723" ]
 date = "2016-07-23"
-title = "5 Interesting Injection Attacks"
+title = "Five Interesting Injection Attacks"
 +++
 
 Everyone is familiar with SQLi and XSS.  To make things more interesting, here are five more unusual injection attacks that have appeared recently.
