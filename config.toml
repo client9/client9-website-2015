@@ -28,7 +28,7 @@ theme="vienna"
     # Disqus shortname
     #disqus = "Your disqus shortname"
     # Google Analytics API key.
-    ga_api_key = "Your Google Analytics tracking id"
+    ga_api_key = "UA-33553605-1"
     # Mixpanel API key.
     # mixpanel_api_key = "Your Mixpanel API key"
     author = "Nick Galbreath"
