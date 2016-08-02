@@ -1,12 +1,13 @@
 +++
 aliases = [ "20160725" ]
 date = "2016-07-25"
-title = "How to program in C"
+title = "How To Program in C"
 +++
 
 If you *must* program in C, here are a few references I've collected from
 twitterverse.  It should keep you busy for the next few... years.   And even then
-this only covers *the basics*.
+this only covers *the basics*.  You'll need to do more research on concurrency, signals, testing and
+some other topics in security.
 
 <!--more-->
 
